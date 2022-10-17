@@ -10,23 +10,10 @@ screen.addshape(image) #adding a shape to turtle
 turtle.shape(image) #using that shape
 
 #THIS FUNCTION PRINTS COORDINATES OF THE MOUSE POINTER WHEN MAP IS CLICKED: ****
-def get_mouse_click_coor(x, y):
-    print(x, y)
-turtle.onscreenclick(get_mouse_click_coor)
-turtle.mainloop()
+# def get_mouse_click_coor(x, y): #returns x and y coordinates
+#     print(x, y)
+# turtle.onscreenclick(get_mouse_click_coor)
+# turtle.mainloop() #keeps our screen open even though code has stopped running
 #,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,****
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-screen.exitonclick()
+answer_state = screen.textinput(title="Guess the state", prompt="What's another state's name?")
